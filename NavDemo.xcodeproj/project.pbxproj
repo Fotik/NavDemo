@@ -15,6 +15,7 @@
 		261ECF8C2066417100C9117D /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ECF8B2066417100C9117D /* DummyViewController.swift */; };
 		261ECF8E2066498300C9117D /* SecondBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261ECF8D2066498300C9117D /* SecondBoard.storyboard */; };
 		261ECF90206652A200C9117D /* NiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ECF8F206652A200C9117D /* NiceViewController.swift */; };
+		26EE838A20679EA00095DD4A /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26EE838C20679EA00095DD4A /* File.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		261ECF8B2066417100C9117D /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		261ECF8D2066498300C9117D /* SecondBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondBoard.storyboard; sourceTree = "<group>"; };
 		261ECF8F206652A200C9117D /* NiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceViewController.swift; sourceTree = "<group>"; };
+		26EE838B20679EA00095DD4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		261ECF6920663DD800C9117D = {
 			isa = PBXGroup;
 			children = (
+				26EE838C20679EA00095DD4A /* File.strings */,
 				261ECF7420663DD800C9117D /* NavDemo */,
 				261ECF7320663DD800C9117D /* Products */,
 			);
@@ -136,6 +139,7 @@
 				261ECF8E2066498300C9117D /* SecondBoard.storyboard in Resources */,
 				261ECF7D20663DD800C9117D /* Assets.xcassets in Resources */,
 				261ECF7B20663DD800C9117D /* Main.storyboard in Resources */,
+				26EE838A20679EA00095DD4A /* File.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +174,14 @@
 				261ECF7F20663DD800C9117D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		26EE838C20679EA00095DD4A /* File.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26EE838B20679EA00095DD4A /* en */,
+			);
+			name = File.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

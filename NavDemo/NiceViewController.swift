@@ -23,7 +23,7 @@ class NiceViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let target = segue.destination as? ViewController else {return}
+        guard let target = segue.destination.childViewControllers[0] as? ViewController else {return}
         target.text = input.text
     }
 }
